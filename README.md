@@ -1,5 +1,10 @@
 # cPerceptron
 Perceptron implementation in c
-# Still writing
+## Get running
+```bash
+cd src
+gcc -operceptron perceptron.c
+./perceptron
+```
 ## License
 [MIT](https://github.com/vtarale/cPerceptron/blob/main/LICENSE)
