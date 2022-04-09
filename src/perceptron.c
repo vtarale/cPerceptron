@@ -16,14 +16,17 @@ void update(int, int, int);
 int main(void) {
     printf("Hello, world\n");
 
-    for (int i = 0; i < 50; ++i) {
+    for (int i = 0; i < 500; ++i) {
         if (i % 2 == 0) 
             update(i, i+5, 1);
         else 
             update(i+5, i, -1);
+        for (int j = 0; j < 2; ++j)
+            printf("%f\t", weigths[j]);
+        printf("\n");
     }
 
-    int ans = predict(5, 10);
+    int ans = predict(10, 5);
     printf("%i\n", ans);
 }
 
